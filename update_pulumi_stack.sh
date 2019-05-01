@@ -5,5 +5,5 @@ npm install
 npm run build
 
 # Update the stack
-pulumi stack select d-nishi/gowebapp-production
+pulumi stack select d-nishi/aws/dev
 pulumi update --yes
