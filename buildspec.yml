@@ -1,5 +1,11 @@
 version: 0.2
 
+env:
+  variables:
+    PULUMI_ACCESS_TOKEN: "/usr/lib/jvm/java-8-openjdk-amd64"
+  parameter-store:
+    LOGIN_PASSWORD: /CodeBuild/dockerLoginPassword
+
 phases:
   install:
     commands:
